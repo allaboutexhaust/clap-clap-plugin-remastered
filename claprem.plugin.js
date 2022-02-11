@@ -22,7 +22,7 @@ module.exports = (() =>
 				}
 			],
 			version: "1.0.0",
-			description: "Useless plugin. Type c? <message> to clap",
+			description: "Useless plugin. | cw?, sc?, c? - 👏 claps 👏 message 👏 | b? - changes every b to 🅱️ | owo? - makes message mowe cute TvT | rev? - reverses message | ra? - sends bigger messages |",
 			github: "https://github.com/devpedzio/clap-clap-plugin-remastered/blob/main/clap.plugin.js",
 			github_raw: "https://raw.githubusercontent.com/devpedzio/clap-clap-plugin-remastered/main/clap.plugin.js"
 		},
@@ -74,7 +74,7 @@ module.exports = (() =>
 							return;
 						}
 
-						switch (content.split("$")[0])
+						switch (content.split("?")[0])
 						{
 							case "ra":
 								const ra = (/^ra\?/g).exec(content);
@@ -86,8 +86,8 @@ module.exports = (() =>
 								
 								break;
 
-							case "reverse":
-								const reverse = (/^rev\?/g).exec(content);
+							case "rev":
+								const rev = (/^rev\?/g).exec(content);
 
 								message.content = message.content.substr(reverse[0].length, message.content.length)
 									.split("")
@@ -120,7 +120,7 @@ module.exports = (() =>
 
 								break;
 							
-							case "woke":
+							case "cw":
 								const woke = (/^cw\?/g).exec(content);
 
 								message.content = message.content.substr(woke[0].length, message.content.length)
@@ -131,10 +131,6 @@ module.exports = (() =>
 					});
 				}
 	
-				onStop()
-				{
-					Patcher.unpatchAll();
-				}
 			}
 		};
 
