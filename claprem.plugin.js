@@ -23,8 +23,8 @@ module.exports = (() =>
 			],
 			version: "1.0.0",
 			description: "Useless plugin. Type c? <message> to clap",
-			github: "",
-			github_raw: ""
+			github: "https://github.com/devpedzio/clap-clap-plugin-remastered/blob/main/clap.plugin.js",
+			github_raw: "https://raw.githubusercontent.com/devpedzio/clap-clap-plugin-remastered/main/clap.plugin.js"
 		},
 		changelog:
 		[
