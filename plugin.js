@@ -1,7 +1,6 @@
 /**
  * @name ClapClapPluginRemastered
- * @invite amethystclient
- * @authorLink https://github.com/devpedzio
+ * @authorLink https://github.com/exsocket
  * @website https://whores.best
  */
 
