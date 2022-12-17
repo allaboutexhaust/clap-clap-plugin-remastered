@@ -1,7 +1,7 @@
 /**
  * @name ClapClapPluginRemastered
- * @authorLink https://github.com/exsocket
- * @website https://whores.best
+ * @authorLink https://github.com/allaboutexhaust
+ * @website https://im.gorgeous.wtf
  */
 
 module.exports = (() =>
@@ -14,16 +14,16 @@ module.exports = (() =>
 			authors:
 			[
 				{
-					name: "pedzio",
-					discord_id: "894433798836613160",
-					github_username: "devpedzio",
-					twitter_username: "devpedzio"
+					name: "exhaust",
+					discord_id: "796375481301729290",
+					github_username: "allaboutexhaust",
+					twitter_username: "allaboutexhaust"
 				}
 			],
 			version: "1.0.0",
 			description: "Useless plugin. | cw?, sc?, c? - 👏 claps 👏 message 👏 | b? - changes every b to 🅱️ | owo? - makes message mowe cute TvT | rev? - reverses message | ra? - sends bigger messages |",
-			github: "https://github.com/devpedzio/clap-clap-plugin-remastered/blob/main/clap.plugin.js",
-			github_raw: "https://raw.githubusercontent.com/devpedzio/clap-clap-plugin-remastered/main/clap.plugin.js"
+			github: "https://github.com/allaboutexhaust/clap-clap-plugin-remastered/blob/main/clap.plugin.js",
+			github_raw: "https://raw.githubusercontent.com/allaboutexhaust/clap-clap-plugin-remastered/main/clap.plugin.js"
 		},
 		changelog:
 		[
